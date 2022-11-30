@@ -1,0 +1,11 @@
+import requests,shutil,os
+
+url = 'https://cdn.discordapp.com/attachments/889123990466093086/1047535034241929216/1076848611_0_0_1001_1100_1920x0_80_0_0_200531d0e9b4676ad7f7d38befeacef1.jpg'
+file_name = 'image.png'
+
+res = requests.get(url, stream = True)
+
+if res.status_code == 200:
+    with open(file_name,'wb') as f:
+        shutil.copyfileobj(res.raw, f)
+os.startfile(file_name)
