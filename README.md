@@ -1,2 +1,1 @@
-# Source-Hider
-Automatically hides a payload inside a python source code
+<h1 align="center">Source-Hider</h1>
