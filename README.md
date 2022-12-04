@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 Runs the main file
 ```py
-python3 main.py
+python3 Compiler.py
 ```
 ## Installation (Compiled)
 Download the Source-Hider.7z from [Release's](https://github.com/HsDom/Source-Hider/releases/).
