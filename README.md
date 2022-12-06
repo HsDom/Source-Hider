@@ -18,3 +18,6 @@ Recommended to install the most recent version to avoid any problems.
 
 Afterwards, drag the exe file to the chosen location on your machine.
 Run it then normally, however running it as administrator is advised
+
+# Features
+- Maskes paylaods inside open source code
